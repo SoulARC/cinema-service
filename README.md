@@ -7,8 +7,8 @@
 Performs access to api endpoints through two roles - ADMIN and USER. Registration with POST 
 /register endpoint by email and password, and repeat password confirmation</p>
 
-<h2> Features for User</h2>Registration: Users can register for an account on the platform.
-<ol>
+<h2> Features for User</h2>
+
 <li>Get all cinema halls: Users can view a list of all the cinema halls available on the 
 platform.
 <li>Get all movies: Users can view a list of all the movies available on the platform.
@@ -17,13 +17,19 @@ platform.
 <li>Complete my orders: Users can complete their orders by paying for the tickets.
 <li>Add movie session to shopping cart: Users can add a movie session to their shopping cart for purchase.
 <li>Get my shopping carts: Users can view their shopping cart and the items they have added to it.
-</ol>
+
+
+<h2> Features for Admin</h2>
+<li>Add cinema halls: Admins can add new cinema halls to the platform.</li>
+<li>Add movies: Admins can add new movies to the platform.</li>
+<li>Add, Update, Delete movie sessions: Admins can add, update, and delete movie sessions on the platform.</li>
+<li>Get all users: Admins can view a list of all the users registered on the platform.</li>
 
 <h2> Technology </h2>
 
 |   Technology	    | Version |
 |:----------------:|:-------:|
-|       JDK	       |    1    |
+|       JDK	       |   17    |
 |     Spring	      |  5.2.2  |
 | Spring Security	 |  5.2.2  |
 |   Hibernate 	    | 5.4.27  |
@@ -33,8 +39,9 @@ platform.
 <h2> How to start</h2>
 <ol>
 <li>Download the project repository</li>
-<li>Create a schema using <a href="https://github.
-com/SoulARC/taxi-service/blob/main/src/main/resources/init_db.sql#L9">script</a></li>
-<li>Update the database configuration in db.properties with your own MySQL credentials.</li>
+<li>Create a schema using <a href="https://github.com/SoulARC/cinema-service/blob/main/src/main/resources/init-db.sql#L9">script</a></li>
+<li>Update the database configuration in <a href="https://github.com/SoulARC/cinema-service/blob/main/src/main/resources/init-db.sql#L9">db.properties</a> with your own MySQL credentials.</li>
+<li>Configure TomCat for this project</li>
+<li>Run</li>
 </ol>
 
