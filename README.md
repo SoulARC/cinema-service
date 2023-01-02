@@ -43,5 +43,7 @@ platform.
 <li>Update the database configuration in <a href="https://github.com/SoulARC/cinema-service/blob/main/src/main/resources/init-db.sql#L9">db.properties</a> with your own MySQL credentials.</li>
 <li>Configure TomCat for this project</li>
 <li>Run</li>
+<li>P.S. There is a standard login <code>user@gmail.com</code> for logging into the system
+  and password <code>user1234</code></li>
 </ol>
 
